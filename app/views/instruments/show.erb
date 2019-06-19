@@ -1,0 +1,5 @@
+<p><%= @instrument.name %></p>
+<p><%= @instrument.brand%></p>
+<ul><% @instrument.artists.each do |artist| %>
+<li><%= artist.name %></li>
+<% end %></ul>
